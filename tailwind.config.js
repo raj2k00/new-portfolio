@@ -11,7 +11,17 @@ module.exports = {
       primary: "rgb(var(--color-primary) / <alpha-value>)",
       secondary: "rgb(var(--color-secondary) / <alpha-value>)",
     },
-    extend: {},
+    extend: {
+      animation: {
+        slideSize: "slideSize 15s ease-in infinite alternate ",
+      },
+      keyframes: {
+        slideSize: {
+          "0%": { width: "60%" },
+          "100%": { width: "50%" },
+        },
+      },
+    },
   },
   plugins: [],
 };
