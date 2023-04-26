@@ -1,48 +1,89 @@
 import React from "react";
-import Image from "next/image";
 
 const NavBar = () => {
   return (
-    <div className="w-20  fixed top-1/2 -translate-y-1/2 right-8 bg-white shadow-2xl rounded-md">
-      <div className="flex flex-col items-center justify-center py-2 gap-2">
+    <div className="w-16 fixed top-1/2 -translate-y-1/2 right-8 bg-white dark_box_shadow  rounded-md">
+      <div className="flex flex-col items-center justify-center py-2 gap-1">
         <div className="hover:bg-[#6C00FF] group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300">
           <svg
-            version="1.1"
             xmlns="http://www.w3.org/2000/svg"
             width="80%"
             height="80%"
-            viewBox="0 0 24 24"
             className="fill-[#6C00FF] group-hover:fill-[#fff] transition-all duration-300"
+            viewBox="0 0 16 16"
+            id="person"
           >
-            <title>face</title>
-            <path d="M12 20.016q3.281 0 5.648-2.367t2.367-5.648q0-1.031-0.328-2.25-1.031 0.234-2.297 0.234-2.156 0-4.523-1.242t-3.586-2.977q-1.547 3.75-5.25 5.391-0.047 0.281-0.047 0.844 0 3.281 2.367 5.648t5.648 2.367zM12 2.016q4.125 0 7.055 2.93t2.93 7.055-2.93 7.055-7.055 2.93-7.055-2.93-2.93-7.055 2.93-7.055 7.055-2.93zM15 11.766q0.516 0 0.891 0.352t0.375 0.867-0.375 0.891-0.891 0.375-0.891-0.375-0.375-0.891 0.375-0.867 0.891-0.352zM9 11.766q0.516 0 0.891 0.352t0.375 0.867-0.375 0.891-0.891 0.375-0.891-0.375-0.375-0.891 0.375-0.867 0.891-0.352z"></path>
+            <path d="M11.5,8 C12.3284271,8 13,8.67157288 13,9.5 L13,10 C13,11.9714437 11.14049,14 8,14 C4.85950997,14 3,11.9714437 3,10 L3,9.5 C3,8.67157288 3.67157288,8 4.5,8 L11.5,8 Z M8,1.5 C9.51878306,1.5 10.75,2.73121694 10.75,4.25 C10.75,5.76878306 9.51878306,7 8,7 C6.48121694,7 5.25,5.76878306 5.25,4.25 C5.25,2.73121694 6.48121694,1.5 8,1.5 Z"></path>
           </svg>
         </div>
 
-        <Image
-          src={"/images/profile.svg"}
-          alt={"profile"}
-          width={50}
-          height={50}
-        />
-        <Image
-          src={"/images/profile.svg"}
-          alt={"profile"}
-          width={50}
-          height={50}
-        />
-        <Image
-          src={"/images/profile.svg"}
-          alt={"profile"}
-          width={50}
-          height={50}
-        />
-        <Image
-          src={"/images/profile.svg"}
-          alt={"profile"}
-          width={50}
-          height={50}
-        />
+        <div className="hover:bg-[#6C00FF] group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 256 256"
+            id="target"
+            width="80%"
+            height="80%"
+            className="transition-all duration-300"
+          >
+            <rect width="256" height="256" fill="none"></rect>
+            <line
+              x1="128"
+              x2="224"
+              y1="128"
+              y2="32"
+              fill="none"
+              className="stroke-[#6C00FF] group-hover:stroke-[#fff] transition-all duration-300"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="18"
+            ></line>
+            <path
+              fill="none"
+              className="stroke-[#6C00FF] group-hover:stroke-[#fff] transition-all duration-300"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="18"
+              d="M195.88225 60.11775a95.90539 95.90539 0 1 0 18.76606 26.49271M161.94113 94.05887a47.99886 47.99886 0 1 0 13.98107 31.20092"
+            ></path>
+          </svg>
+        </div>
+        <div className="hover:bg-[#6C00FF] group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="19"
+            height="13"
+            className="fill-[#6C00FF] group-hover:fill-[#fff] transition-all duration-300 scale-150"
+            id="code"
+          >
+            <path d="M5.204 3.419a.997.997 0 0 0 0-1.401l-.013-.013a.975.975 0 0 0-1.388 0L.288 5.553a.998.998 0 0 0 0 1.402l3.515 3.548a.975.975 0 0 0 1.388 0l.013-.013a.997.997 0 0 0 0-1.401L3.09 6.955a.998.998 0 0 1 0-1.402l2.114-2.134zm13.508 2.134-3.515-3.548a.975.975 0 0 0-1.388 0l-.013.013a.997.997 0 0 0 0 1.401l2.115 2.134a.998.998 0 0 1 0 1.402l-2.115 2.134a.997.997 0 0 0 0 1.401l.013.013a.975.975 0 0 0 1.388 0l3.515-3.548a.998.998 0 0 0 0-1.402zm-5.903-4.145-5.062 10.83c-.164.341-.452.762-.823.762h-.02c-.721 0-1.192-.98-.873-1.641L11.064.631c.164-.34.772-.606.772-.606V0c.982 0 1.292.747.973 1.408z"></path>
+          </svg>
+        </div>
+        <div className="hover:bg-[#6C00FF] group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 32 32"
+            width="75%"
+            height="75%"
+            id="award"
+            className="fill-[#6C00FF] group-hover:fill-[#fff] transition-all duration-300 "
+          >
+            <path d="M8,22.23V30a1,1,0,0,0,1.39.92L16,28.09l6.61,2.83A1,1,0,0,0,23,31a1,1,0,0,0,.55-.17A1,1,0,0,0,24,30V22.23a12.94,12.94,0,0,1-16,0Z"></path>
+            <path d="M16,23A11,11,0,1,0,5,12,11,11,0,0,0,16,23ZM16,5a7,7,0,1,1-7,7A7,7,0,0,1,16,5Z"></path>
+            <circle cx="16" cy="12" r="5"></circle>
+          </svg>
+        </div>
+        <div className="hover:bg-[#6C00FF] group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            className="fill-[#6C00FF] group-hover:fill-[#fff] transition-all duration-300 scale-125 "
+            id="message"
+          >
+            <path d="M5.1 22.1c-.5 0-.9-.1-1.4-.2-.3-.1-.6-.3-.8-.5l-.1-.1c-.1-.1-.2-.3-.2-.4 0-.2.1-.3.3-.4.8-.4 1.5-1.1 1.9-1.9.1-.1.2-.2.2-.3C2.2 16.6.5 13.9.5 11 .5 6 5.7 1.8 12 1.8S23.5 6 23.5 11c0 5-5.2 9.2-11.5 9.2-.6 0-1.3 0-1.9-.1-1.5 1.3-3.3 2-5 2z"></path>
+          </svg>
+        </div>
       </div>
     </div>
   );
