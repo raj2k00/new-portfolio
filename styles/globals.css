@@ -23,6 +23,7 @@
 body {
   color: rgb(var(--color-primary));
   background: rgb(var(--background));
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
