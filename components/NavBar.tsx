@@ -34,16 +34,16 @@ const NavBar = () => {
               y2="32"
               fill="none"
               className="stroke-[#6C00FF] group-hover:stroke-[#fff] transition-all duration-300"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="18"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="18"
             ></line>
             <path
               fill="none"
               className="stroke-[#6C00FF] group-hover:stroke-[#fff] transition-all duration-300"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="18"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="18"
               d="M195.88225 60.11775a95.90539 95.90539 0 1 0 18.76606 26.49271M161.94113 94.05887a47.99886 47.99886 0 1 0 13.98107 31.20092"
             ></path>
           </svg>
