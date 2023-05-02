@@ -63,10 +63,12 @@ const SKILL_DATA = [
 
 const Skills = () => {
   return (
-    <div className={`flex relative items-center justify-center h-screen`}>
+    <section
+      className={`flex relative items-center justify-center h-screen snap-start`}
+    >
       <div className="-mt-16">
         <div className="text-4xl pb-4 text-center leading-snug">Skills</div>
-        <div className="grid grid-cols-2 gap-12 justify-start items-start pt-16 gap-x-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 justify-start items-start pt-16 gap-x-20">
           {SKILL_DATA.map((skill) => (
             <SkillSet
               key={skill.id}
@@ -77,7 +79,7 @@ const Skills = () => {
           ))}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

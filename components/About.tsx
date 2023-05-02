@@ -15,8 +15,8 @@ const roboto = Roboto_Slab({
 const About = () => {
   const lottieRef = useRef(null);
   return (
-    <div
-      className={`flex relative items-center justify-center h-screen ${roboto.className}`}
+    <section
+      className={`flex relative items-center justify-center h-screen ${roboto.className} snap-start`}
     >
       <div className="-mt-14">
         <div className="text-4xl pb-4 text-center leading-snug">About me</div>
@@ -49,7 +49,7 @@ const About = () => {
           speed={0.7}
         />
       </div>
-    </div>
+    </section>
   );
 };
 

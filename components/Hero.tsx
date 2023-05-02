@@ -2,13 +2,12 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="flex relative items-center justify-center h-screen">
+    <section className="flex relative  items-center justify-center h-screen snap-start">
       <div className="text-5xl text-center leading-snug">
         Hi, I&apos;m Mohanraj.
         <br /> I&apos;m a Developer, Designer,
         <br /> and Engineer.
       </div>
-
       <div className="absolute bottom-0 w-full px-4">
         <div className="flex items-end gap-3">
           <svg
@@ -60,7 +59,7 @@ const Hero = () => {
           </svg>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

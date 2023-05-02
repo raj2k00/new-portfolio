@@ -13,7 +13,9 @@ const lato = Lato({
 
 export default function Home() {
   return (
-    <main className={`min-h-screen  ${lato.className}`}>
+    <main
+      className={`snap-mandatory snap-y h-screen overflow-y-scroll  ${lato.className}`}
+    >
       <Header />
       <Hero />
       <About />
