@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import dynamic from "next/dynamic";
 import { Roboto_Slab } from "next/font/google";
 const Lottie = dynamic(
@@ -13,7 +12,6 @@ const roboto = Roboto_Slab({
 });
 
 const About = () => {
-  const lottieRef = useRef(null);
   return (
     <section
       className={`flex relative items-center justify-center h-screen ${roboto.className} snap-start`}
@@ -42,7 +40,6 @@ const About = () => {
       <div className="absolute  bottom-0 w-full px-4">
         <Lottie
           loop
-          ref={lottieRef}
           className=" h-60 w-60 -scale-x-[1]  "
           animationData={arrowLoader}
           play

@@ -4,6 +4,9 @@ import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
+import Projects from "@/components/Projects";
+import Certificates from "@/components/Certificates";
+import Footer from "@/components/Footer";
 
 const lato = Lato({
   weight: ["100", "300", "400", "700"],
@@ -20,6 +23,9 @@ export default function Home() {
       <Hero />
       <About />
       <Skills />
+      <Projects />
+      <Certificates />
+      <Footer />
       <NavBar />
     </main>
   );
