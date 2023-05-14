@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       animation: {
         slideSize: "slideSize 15s ease-in infinite alternate ",
+        "spin-slow": "spin 1.5s linear infinite",
       },
       keyframes: {
         slideSize: {
