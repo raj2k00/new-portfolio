@@ -27,7 +27,7 @@ const Header = () => {
           className="cursor-pointer"
         />
       </div>
-      <div className="h-12 bg-[#6C00FF] md:block hidden w-3/5 clip-bottom-left animate-slideSize hover:pause_animation " />
+      <div className="h-12 bg-primary md:block hidden w-3/5 clip-bottom-left animate-slideSize hover:pause_animation " />
     </div>
   );
 };
