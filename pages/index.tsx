@@ -100,7 +100,7 @@ export default function Home() {
         theme="light"
       />
       <main
-        className={`snap-mandatory snap-y h-screen overflow-y-scroll  ${lato.className}`}
+        className={`md:snap-mandatory md:snap-y h-fit md:h-screen overflow-y-scroll  ${lato.className}`}
       >
         <Header />
 

@@ -64,7 +64,7 @@ const SKILL_DATA = [
 const Skills = () => {
   return (
     <section
-      className={`flex relative items-center justify-center h-screen snap-start`}
+      className={`flex relative items-center justify-center h-fit md:h-screen snap-start`}
     >
       <div className="-mt-16">
         <div className="text-4xl pb-4 text-center leading-snug">Skills</div>

@@ -62,7 +62,7 @@ const Footer = () => {
 
   return (
     <section
-      className={`flex relative items-center justify-center h-screen snap-start ${montserrat.className}`}
+      className={`flex relative items-center justify-center h-fit md:h-screen snap-start ${montserrat.className}`}
     >
       <div className="flex w-full">
         <aside className="w-2/5 flex items-center justify-center flex-col pl-24">

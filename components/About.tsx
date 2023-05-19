@@ -14,7 +14,7 @@ const roboto = Roboto_Slab({
 const About = () => {
   return (
     <section
-      className={`flex relative items-center justify-center h-screen ${roboto.className} snap-start`}
+      className={`flex relative items-center justify-center h-fit md:h-screen ${roboto.className} snap-start`}
     >
       <div className="-mt-14">
         <div className="text-4xl pb-4 text-center leading-snug">About me</div>

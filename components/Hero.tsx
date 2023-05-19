@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   return (
     <section className="flex relative  items-center justify-center h-screen snap-start">
-      <div className="text-5xl text-center leading-snug">
+      <div className="text-3xl sm:text-4xl lg:text-5xl text-center leading-snug">
         Hi, I&apos;m Mohanraj.
         <br /> I&apos;m a Developer, Designer,
         <br /> and Engineer.

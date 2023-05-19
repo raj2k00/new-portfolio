@@ -5,7 +5,7 @@ interface NavBarInterface {
   currentSection: string;
 }
 
-const NavBar = ({ setSection, currentSection }: NavBarInterface) => {
+const DeskTopNavBar = ({ setSection, currentSection }: NavBarInterface) => {
   return (
     <div className="w-16 fixed top-1/2 -translate-y-1/2 right-8 bg-white dark_box_shadow  rounded-md">
       <div className="flex flex-col items-center justify-center py-2 gap-1">
@@ -130,4 +130,4 @@ const NavBar = ({ setSection, currentSection }: NavBarInterface) => {
   );
 };
 
-export default NavBar;
+export default DeskTopNavBar;
