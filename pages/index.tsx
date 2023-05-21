@@ -104,6 +104,11 @@ export default function Home() {
       >
         <Header />
 
+        <NavBar
+          currentSection={currentSection}
+          setSection={handleNavButtonClick}
+        />
+
         <section>
           <Hero />
         </section>
@@ -122,11 +127,6 @@ export default function Home() {
         <section ref={footerRef} id="footer">
           <Footer />
         </section>
-
-        <NavBar
-          currentSection={currentSection}
-          setSection={handleNavButtonClick}
-        />
       </main>
     </>
   );

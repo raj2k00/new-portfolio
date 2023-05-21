@@ -12,7 +12,7 @@ const NavBar = ({ setSection, currentSection }: NavBarInterface) => {
   const { width } = useWindowSize();
 
   return (
-    <>
+    <div className="fixed z-50">
       {width >= 768 ? (
         <DeskTopNavBar
           setSection={setSection}
@@ -21,7 +21,7 @@ const NavBar = ({ setSection, currentSection }: NavBarInterface) => {
       ) : (
         <MobileNavBar setSection={setSection} currentSection={currentSection} />
       )}
-    </>
+    </div>
   );
 };
 
