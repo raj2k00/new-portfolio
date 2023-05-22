@@ -13,10 +13,8 @@ const Hero = () => {
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            width="175"
-            height="175"
             viewBox="0 0 32 32"
-            className="fill-primary"
+            className="fill-primary md:w-44 md:h-44 h-32 w-32 order-3 md:order-1"
           >
             <title>monitor</title>
             <path d="M30 24c0 0-8.25 0-10 0s2 6 2 6c0 1.104-0.896 2-2 2h-8c-1.104 0-2-0.896-2-2 0 0 3.812-6 2-6s-10 0-10 0c-1.104 0-2-0.896-2-2v-20c0-1.104 0.896-2 2-2h28c1.104 0 2 0.896 2 2v20c0 1.104-0.896 2-2 2zM16 23c1.104 0 2-0.896 2-2s-0.896-2-2-2-2 0.896-2 2 0.896 2 2 2zM30 4c0-1.104-0.896-2-2-2h-24c-1.104 0-2 0.896-2 2v12c0 1.104 0.896 2 2 2h24c1.104 0 2-0.896 2-2v-12z"></path>
@@ -27,7 +25,7 @@ const Hero = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="150"
             height="150"
-            className="fill-primary"
+            className="fill-primary md:w-[150px] md:h-[150px] h-24 w-24 order-2 md:order-1"
             viewBox="0 0 24 16"
           >
             <title>laptop_mac</title>
@@ -37,9 +35,7 @@ const Hero = () => {
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            width="58"
-            height="58"
-            className="fill-primary"
+            className="fill-primary order-3 md:order-1 md:w-[58px] md:h-[58px] h-12 w-12 "
             viewBox="0 0 32 32"
           >
             <title>tablet</title>
@@ -49,9 +45,7 @@ const Hero = () => {
           <svg
             version="1.1"
             xmlns="http://www.w3.org/2000/svg"
-            width="40"
-            height="40"
-            className="fill-primary"
+            className="fill-primary order-4 md:order-1 md:w-[40px] md:h-[40px] h-8 w-8 "
             viewBox="0 0 32 32"
           >
             <title>mobile</title>

@@ -20,7 +20,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
         } `}
       >
         <div
-          className="w-fit py-4 px-3 fixed top-10 -translate-y-1/2 right-8 bg-white dark_box_shadow  rounded-full group"
+          className="w-fit py-4 px-3 fixed top-10 -translate-y-1/2 right-8 bg-[#fff] dark_box_shadow  rounded-full group"
           onClick={handleClick}
         >
           <div className="space-y-[0.5rem] ">
