@@ -14,12 +14,14 @@ const roboto = Roboto_Slab({
 const About = () => {
   return (
     <section
-      className={`flex relative items-center justify-center h-fit md:h-screen ${roboto.className} snap-start`}
+      className={`flex relative items-center justify-center h-screen ${roboto.className} snap-start`}
     >
-      <div className="-mt-14">
-        <div className="text-4xl pb-4 text-center leading-snug">About me</div>
+      <div className="md:-mt-14 mt-4 ">
+        <div className="text-2xl md:text-4xl pb-4 text-center leading-snug">
+          About me
+        </div>
 
-        <div className="mx-auto text-2xl text-justify indent-10 py-4 w-3/5   ">
+        <div className="mx-auto text-base md:text-2xl text-justify indent-10 py-4 w-10/12 md:w-3/5   ">
           <p>
             Hi there, I&apos;m Mohanraj G, a full-stack web developer with over
             a year of experience building user-friendly and responsive web
@@ -37,7 +39,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="absolute  bottom-0 w-full px-4">
+      <div className="absolute md:block hidden  bottom-0 w-full px-4">
         <Lottie
           loop
           className=" h-60 w-60 -scale-x-[1]  "

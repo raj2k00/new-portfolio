@@ -12,7 +12,7 @@ const CertificateItem = ({
   return (
     <a
       href={anchorLink || "#"}
-      className=" dark_box_shadow rounded-md p-2 hover:scale-105 scale-100 ease-in delay-75 transition-all"
+      className=" dark_box_shadow rounded-md p-2 hover:scale-105 scale-100 ease-in delay-75 transition-all md:w-80 md:h-52 w-72 h-48"
     >
       <Image
         src={certificateImage || "/images/beach.jpg"}

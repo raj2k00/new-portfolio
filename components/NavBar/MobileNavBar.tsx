@@ -48,7 +48,10 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
           <div className="flex items-start flex-col">
             <div
               className="flex gap-3 justify-center items-center"
-              onClick={() => setSection("about")}
+              onClick={() => {
+                handleClick();
+                setSection("about");
+              }}
             >
               <div
                 className={` ${
@@ -81,7 +84,10 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
 
             <div
               className="flex gap-3 justify-center items-center"
-              onClick={() => setSection("skills")}
+              onClick={() => {
+                handleClick();
+                setSection("skills");
+              }}
             >
               <div
                 className={` ${
@@ -135,7 +141,10 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
 
             <div
               className="flex gap-3 justify-center items-center"
-              onClick={() => setSection("project")}
+              onClick={() => {
+                handleClick();
+                setSection("project");
+              }}
             >
               <div
                 className={` ${
@@ -167,7 +176,10 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
 
             <div
               className="flex gap-3 justify-center items-center"
-              onClick={() => setSection("award")}
+              onClick={() => {
+                handleClick();
+                setSection("award");
+              }}
             >
               <div
                 className={` ${
@@ -203,7 +215,10 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
 
             <div
               className="flex gap-3 justify-center items-center"
-              onClick={() => setSection("footer")}
+              onClick={() => {
+                handleClick();
+                setSection("footer");
+              }}
             >
               <div
                 className={` ${

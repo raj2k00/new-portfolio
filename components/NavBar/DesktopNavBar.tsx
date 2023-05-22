@@ -7,13 +7,13 @@ interface NavBarInterface {
 
 const DeskTopNavBar = ({ setSection, currentSection }: NavBarInterface) => {
   return (
-    <div className="w-16 fixed top-1/2 -translate-y-1/2 right-8 bg-white dark_box_shadow  rounded-md">
+    <div className="w-16 fixed top-1/2 -translate-y-1/2 right-8 bg-[#fff] dark_box_shadow  rounded-md">
       <div className="flex flex-col items-center justify-center py-2 gap-1">
         <div
           onClick={() => setSection("about")}
           className={` ${
             currentSection === "about" && "bg-primary dark_box_shadow"
-          } hover:bg-primary group flex items-center m-1 justify-center h-12 w-12 bg-white rounded-full transition-all hover:dark_box_shadow duration-300`}
+          } hover:bg-primary group flex items-center m-1 justify-center h-12 w-12 bg-[#fff] rounded-full transition-all hover:dark_box_shadow duration-300`}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

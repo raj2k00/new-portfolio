@@ -5,9 +5,11 @@ const Projects = () => {
     <section
       className={`flex relative items-center justify-center h-fit md:h-screen snap-start`}
     >
-      <div className="-mt-14">
-        <div className="text-4xl pb-4 text-center leading-snug">Projects</div>
-        <div className="flex gap-8 flex-wrap my-12 mt-20">
+      <div className="md:-mt-14 mt-12">
+        <div className="text-2xl md:text-4xl pb-4 text-center leading-snug">
+          Projects
+        </div>
+        <div className="flex gap-4 md:gap-8 flex-wrap my-12 mt-12 md:mt-20 items-center justify-center">
           <ProjectItem
             projectImage={"/images/beach.jpg"}
             languageImage={"/images/node-js.svg"}
