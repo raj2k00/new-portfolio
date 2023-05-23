@@ -15,19 +15,20 @@ const Header = () => {
   }
 
   return (
-    <div className="w-full flex justify-between fixed">
-      <div className="p-2">
+    <div className="w-full flex justify-between absolute md:fixed z-50">
+      <div className="p-2 ">
         <Image
           src={isHovered ? "/images/logo.webp" : "/images/logo.svg"}
           alt={"logo"}
           width={60}
           height={60}
+          priority={true}
           onMouseOver={addGif}
           onMouseLeave={removeGif}
           className="cursor-pointer"
         />
       </div>
-      <div className="h-12 bg-primary md:block hidden w-3/5 clip-bottom-left animate-slideSize hover:pause_animation " />
+      <div className="h-12 bg-primary md:block hidden w-3/5 clip-bottom-left animate-slideSize  hover:pause_animation " />
     </div>
   );
 };
