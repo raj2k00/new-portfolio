@@ -88,10 +88,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
-              over a year of experience building user-friendly and responsive
-              web applications. I have a passion for creating intuitive and
-              efficient web solutions that meet the needs of my clients."
+          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. I excel in front-end and back-end development, delivering high-quality code and seamless user experiences. Let's bring your ideas to life!"
         />
         <meta name="keywords" content="raj2k00 Mohanraj Portfolio " />
         <meta name="author" content="raj2k00" />
@@ -103,10 +100,7 @@ export default function Home() {
         <meta property="og:title" content="Mohanraj G | Full Stack Developer" />
         <meta
           property="og:description"
-          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
-              over a year of experience building user-friendly and responsive
-              web applications. I have a passion for creating intuitive and
-              efficient web solutions that meet the needs of my clients."
+          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. I excel in front-end and back-end development, delivering high-quality code and seamless user experiences. Let's bring your ideas to life!"
         />
         <meta
           property="og:image"
