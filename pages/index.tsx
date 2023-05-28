@@ -6,7 +6,6 @@ import Head from "next/head";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
-import Certificates from "@/components/Certificates";
 import Footer from "@/components/Footer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
@@ -88,7 +87,7 @@ export default function Home() {
         <meta charSet="UTF-8" />
         <meta
           name="description"
-          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. I excel in front-end and back-end development, delivering high-quality code and seamless user experiences. Let's bring your ideas to life!"
+          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. "
         />
         <meta name="keywords" content="raj2k00 Mohanraj Portfolio " />
         <meta name="author" content="raj2k00" />
@@ -96,11 +95,11 @@ export default function Home() {
         <meta name="title" content="Mohanraj G | Full Stack Developer"></meta>
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://raj2k00.netlify.app/" />
+        <meta property="og:url" content="https://raj2k00.vercel.app/" />
         <meta property="og:title" content="Mohanraj G | Full Stack Developer" />
         <meta
           property="og:description"
-          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. I excel in front-end and back-end development, delivering high-quality code and seamless user experiences. Let's bring your ideas to life!"
+          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. "
         />
         <meta
           property="og:image"
@@ -108,17 +107,14 @@ export default function Home() {
         />
 
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://raj2k00.netlify.app/" />
+        <meta property="twitter:url" content="https://raj2k00.vercel.app/" />
         <meta
           property="twitter:title"
           content="Mohanraj G | Full Stack Developer"
         />
         <meta
           property="twitter:description"
-          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
-              over a year of experience building user-friendly and responsive
-              web applications. I have a passion for creating intuitive and
-              efficient web solutions that meet the needs of my clients."
+          content="Hi, I'm Mohanraj G, a full-stack web developer with 1+ year of experience. I create user-friendly, responsive web apps with a focus on intuitive solutions. "
         />
         <meta
           property="twitter:image"
