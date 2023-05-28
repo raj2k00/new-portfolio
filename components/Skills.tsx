@@ -66,11 +66,12 @@ const Skills = () => {
     <section
       className={`flex relative items-center justify-center h-fit md:h-screen snap-start`}
     >
+      <div className="absolute rounded-tl-md rounded-bl-md  md:hidden block h-2 right-0 w-10/12 bg-primary top-0"></div>
       <div className="md:-mt-16 mt-12">
         <div className="text-2xl md:text-4xl pb-4 text-center leading-snug">
           Skills
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 justify-start items-start pt-8 md:pt-16 gap-x-20">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 justify-start items-start pt-8 md:pt-16 gap-x-20 pb-8 md:pb-0">
           {SKILL_DATA.map((skill) => (
             <SkillSet
               key={skill.id}

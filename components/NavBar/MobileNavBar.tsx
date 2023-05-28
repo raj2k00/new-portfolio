@@ -79,7 +79,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                         : "bg-[#fff] text-primary"
                     } `}
                   >
-                    <span className="block skew-x-[20deg]"> About</span>
+                    <span className="block skew-x-[20deg]"> Home</span>
                   </div>
                 </div>
 
@@ -137,7 +137,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                         : "bg-[#fff] text-primary"
                     } `}
                   >
-                    <span className="block skew-x-[20deg]"> Skills</span>
+                    <span className="block skew-x-[20deg]"> About</span>
                   </div>
                 </div>
 
@@ -173,7 +173,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                         : "bg-[#fff] text-primary"
                     } `}
                   >
-                    <span className="block skew-x-[20deg]"> Projects</span>
+                    <span className="block skew-x-[20deg]"> Skills</span>
                   </div>
                 </div>
 
@@ -212,7 +212,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                         : "bg-[#fff] text-primary"
                     } `}
                   >
-                    <span className="block skew-x-[20deg]"> Certificates</span>
+                    <span className="block skew-x-[20deg]"> Projects</span>
                   </div>
                 </div>
 

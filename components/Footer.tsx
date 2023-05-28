@@ -64,6 +64,7 @@ const Footer = () => {
     <section
       className={`flex relative items-center justify-center h-fit md:h-screen snap-start ${montserrat.className}`}
     >
+      <div className="absolute md:hidden block h-2  w-full bg-primary top-0"></div>
       <div className="flex w-full md:flex-row flex-col md:mt-0 mt-16 ">
         <aside className="w-11/12 md:w-2/5 flex items-center justify-center   flex-col md:pl-24 mx-auto">
           <p

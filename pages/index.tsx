@@ -29,12 +29,10 @@ export default function Home() {
     }
   }, [currentSection, viaButtonClick]);
 
-  const headerRef = useRef(null);
   const heroRef = useRef(null);
   const aboutRef = useRef(null);
   const skillsRef = useRef(null);
   const projectsRef = useRef(null);
-  const certificatesRef = useRef(null);
   const footerRef = useRef(null);
 
   // Define a callback function to execute when the intersection changes
@@ -62,12 +60,10 @@ export default function Home() {
     );
 
     // Start observing each section element
-    if (headerRef.current) observer.observe(headerRef.current);
     if (heroRef.current) observer.observe(heroRef.current);
     if (aboutRef.current) observer.observe(aboutRef.current);
     if (skillsRef.current) observer.observe(skillsRef.current);
     if (projectsRef.current) observer.observe(projectsRef.current);
-    if (certificatesRef.current) observer.observe(certificatesRef.current);
     if (footerRef.current) observer.observe(footerRef.current);
 
     // Cleanup function to disconnect the observer when unmounting
@@ -109,20 +105,17 @@ export default function Home() {
           setSection={handleNavButtonClick}
         />
 
-        <section>
+        <section ref={heroRef} id="about">
           <Hero />
         </section>
-        <section ref={aboutRef} id="about">
+        <section ref={aboutRef} id="skills">
           <About />
         </section>
-        <section ref={skillsRef} id="skills">
+        <section ref={skillsRef} id="project">
           <Skills />
         </section>
-        <section ref={projectsRef} id="project">
+        <section ref={projectsRef} id="award">
           <Projects />
-        </section>
-        <section ref={certificatesRef} id="award">
-          <Certificates />
         </section>
         <section ref={footerRef} id="footer">
           <Footer />
