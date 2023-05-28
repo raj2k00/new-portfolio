@@ -2,6 +2,7 @@ import { Lato } from "next/font/google";
 import Hero from "@/components/Hero";
 import Header from "@/components/Header";
 import NavBar from "@/components/NavBar";
+import Head from "next/head";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
@@ -82,6 +83,54 @@ export default function Home() {
 
   return (
     <>
+      <Head>
+        <title>Mohanraj G | Full Stack Developer</title>
+        <meta charSet="UTF-8" />
+        <meta
+          name="description"
+          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
+              over a year of experience building user-friendly and responsive
+              web applications. I have a passion for creating intuitive and
+              efficient web solutions that meet the needs of my clients."
+        />
+        <meta name="keywords" content="raj2k00 Mohanraj Portfolio " />
+        <meta name="author" content="raj2k00" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="title" content="Mohanraj G | Full Stack Developer"></meta>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://raj2k00.netlify.app/" />
+        <meta property="og:title" content="Mohanraj G | Full Stack Developer" />
+        <meta
+          property="og:description"
+          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
+              over a year of experience building user-friendly and responsive
+              web applications. I have a passion for creating intuitive and
+              efficient web solutions that meet the needs of my clients."
+        />
+        <meta
+          property="og:image"
+          content="https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685261017/portfolio_hero_pfddpr.png"
+        />
+
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://raj2k00.netlify.app/" />
+        <meta
+          property="twitter:title"
+          content="Mohanraj G | Full Stack Developer"
+        />
+        <meta
+          property="twitter:description"
+          content=" Hi there, I'm Mohanraj G, a full-stack web developer with
+              over a year of experience building user-friendly and responsive
+              web applications. I have a passion for creating intuitive and
+              efficient web solutions that meet the needs of my clients."
+        />
+        <meta
+          property="twitter:image"
+          content="https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685261017/portfolio_hero_pfddpr.png"
+        />
+      </Head>
       <ToastContainer
         position="top-center"
         autoClose={4000}
