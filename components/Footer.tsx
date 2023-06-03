@@ -38,11 +38,6 @@ const Footer = () => {
   const [submitting, setSubmitting] = useState<boolean>(false);
   const [mailStatus, setMailStatus] = useState<boolean>();
 
-  const showError = () => {
-    let ssdfjk_dsfewnkln_dsfew;
-    console.log(ssdfjk_dsfewnkln_dsfew.toFixed(4));
-  };
-
   async function HandleFormSubmit(
     values: SendMessageInterface,
     resetForm: Function
@@ -61,6 +56,10 @@ const Footer = () => {
     }
   }
 
+  function methodDoesNotExist(): void {
+    throw new Error("Function not implemented.");
+  }
+
   return (
     <section
       className={`flex relative items-center justify-center h-fit md:h-screen snap-start ${montserrat.className}`}
@@ -70,7 +69,7 @@ const Footer = () => {
         <aside className="w-11/12 md:w-2/5 flex items-center justify-center   flex-col md:pl-24 mx-auto">
           <p
             className="text-2xl md:text-5xl font-medium md:text-left text-center "
-            onClick={showError}
+            onClick={() => methodDoesNotExist()}
           >
             Let&apos;s Talk <br /> Tell me about your Project.
           </p>
