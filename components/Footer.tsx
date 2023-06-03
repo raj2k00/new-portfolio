@@ -38,8 +38,9 @@ const Footer = () => {
   const [submitting, setSubmitting] = useState<boolean>(false);
   const [mailStatus, setMailStatus] = useState<boolean>();
 
-  const showToast = () => {
-    toast.success("Done 🚀, Soon you'll hear from me");
+  const showError = () => {
+    let ssdfjk_dsfewnkln_dsfew;
+    console.log(ssdfjk_dsfewnkln_dsfew.toFixed(4));
   };
 
   async function HandleFormSubmit(
@@ -69,7 +70,7 @@ const Footer = () => {
         <aside className="w-11/12 md:w-2/5 flex items-center justify-center   flex-col md:pl-24 mx-auto">
           <p
             className="text-2xl md:text-5xl font-medium md:text-left text-center "
-            onClick={showToast}
+            onClick={showError}
           >
             Let&apos;s Talk <br /> Tell me about your Project.
           </p>
