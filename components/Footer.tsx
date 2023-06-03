@@ -57,7 +57,8 @@ const Footer = () => {
   }
 
   function methodDoesNotExist(): void {
-    throw new Error("Function not implemented.");
+    let some_random_function: any = "";
+    some_random_function.tofixed();
   }
 
   return (
