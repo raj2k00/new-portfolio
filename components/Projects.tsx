@@ -12,19 +12,28 @@ const Projects = () => {
         </div>
         <div className="flex gap-4 md:gap-8 flex-wrap my-12 mt-12 md:mt-20 items-center justify-center">
           <ProjectItem
-            projectImage={"/images/beach.jpg"}
+            projectImage={
+              "https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685876707/cliffhanger.png"
+            }
             languageImage={"/images/node-js.svg"}
             projectName={"Cliffhanger"}
+            anchorLink={"https://cliffhanger-raj2k00.onrender.com/"}
           />
           <ProjectItem
-            projectImage={"/images/beach.jpg"}
-            languageImage={"/images/node-js.svg"}
-            projectName={"Cliffhanger"}
+            projectImage={
+              "https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685877026/keeper-app.png"
+            }
+            languageImage={"/images/react.svg"}
+            projectName={"Keeper App"}
+            anchorLink={"https://keeper-notes.netlify.app/"}
           />
           <ProjectItem
-            projectImage={"/images/beach.jpg"}
-            languageImage={"/images/node-js.svg"}
-            projectName={"Cliffhanger"}
+            projectImage={
+              "https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685877864/outdoors.png"
+            }
+            languageImage={"/images/css3.svg"}
+            projectName={"Outdoors"}
+            anchorLink={"https://tours-outdoors.netlify.app/"}
           />
         </div>
       </div>

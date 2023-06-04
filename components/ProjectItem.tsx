@@ -4,7 +4,7 @@ interface ProjectItemInterface {
   projectImage: string;
   languageImage: string;
   projectName: string;
-  anchorLink?: string;
+  anchorLink: string;
 }
 
 const ProjectItem = ({
@@ -16,14 +16,15 @@ const ProjectItem = ({
   return (
     <a
       href={anchorLink || "#"}
+      target="_blank"
       className=" dark_box_shadow rounded-md p-4 hover:scale-105 scale-100 ease-in delay-75 transition-all"
     >
       <div className="md:w-80 md:h-52 w-72 h-48">
         <Image
           src={projectImage || "/images/beach.jpg"}
           alt={"beach pic"}
-          width={300}
-          height={200}
+          width={400}
+          height={400}
           className=""
         />
       </div>

@@ -41,7 +41,7 @@ const About = () => {
           </div>
           <div className="w-fit mx-auto">
             <a
-              href="https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685253233/mohanraj_resume.pdf"
+              href="https://res.cloudinary.com/dtv8z6zgr/image/upload/v1685875961/mohanraj_resume.pdf"
               download="mohanraj_resume.pdf"
               className="flex justify-center mt-10"
             >
