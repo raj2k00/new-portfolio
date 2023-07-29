@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useLayoutEffect, useState } from "react";
 
 interface Dimension {
   width: number;
@@ -17,7 +17,7 @@ function useWindowSize(): Dimension {
     setWindowSize({ width: window?.innerWidth, height: window?.innerHeight });
   };
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     setWindowSize({
       width: isSSR ? 1200 : window?.innerWidth,
       height: isSSR ? 800 : window?.innerHeight,

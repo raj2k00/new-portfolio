@@ -144,16 +144,16 @@ export default function Home() {
           setSection={handleNavButtonClick}
         />
 
-        <section ref={heroRef} id="about">
+        <section ref={heroRef} id="hero">
           <Hero />
         </section>
-        <section ref={aboutRef} id="skills">
+        <section ref={aboutRef} id="about">
           <About />
         </section>
-        <section ref={skillsRef} id="project">
+        <section ref={skillsRef} id="skills">
           <Skills />
         </section>
-        <section ref={projectsRef} id="award">
+        <section ref={projectsRef} id="projects">
           <Projects />
         </section>
         <section ref={footerRef} id="footer">

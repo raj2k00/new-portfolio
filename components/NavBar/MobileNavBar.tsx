@@ -51,12 +51,12 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   className="flex gap-3 justify-center items-center"
                   onClick={() => {
                     handleClick();
-                    setSection("about");
+                    setSection("hero");
                   }}
                 >
                   <div
                     className={` ${
-                      currentSection === "about" && "bg-primary dark_box_shadow"
+                      currentSection === "hero" && "bg-primary dark_box_shadow"
                     } hover:bg-primary group flex items-center m-1 justify-center h-10 w-10 bg-white rounded-full transition-all hover:dark_box_shadow duration-300`}
                   >
                     <svg
@@ -64,7 +64,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                       width="70%"
                       height="70%"
                       className={` ${
-                        currentSection === "about" && "!fill-[#fff] "
+                        currentSection === "hero" && "!fill-[#fff] "
                       } fill-primary group-hover:fill-[#fff] transition-all duration-300`}
                       viewBox="0 0 16 16"
                       id="person"
@@ -74,7 +74,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   </div>
                   <div
                     className={`text-xl  py-1 px-5 -skew-x-[20deg] ${
-                      currentSection === "about"
+                      currentSection === "hero"
                         ? "bg-primary text-[#fff] "
                         : "bg-[#fff] text-primary"
                     } `}
@@ -87,13 +87,12 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   className="flex gap-3 justify-center items-center"
                   onClick={() => {
                     handleClick();
-                    setSection("skills");
+                    setSection("about");
                   }}
                 >
                   <div
                     className={` ${
-                      currentSection === "skills" &&
-                      "bg-primary dark_box_shadow"
+                      currentSection === "about" && "bg-primary dark_box_shadow"
                     } hover:bg-primary group flex items-center m-1 justify-center h-10 w-10 bg-white rounded-full transition-all hover:dark_box_shadow duration-300`}
                   >
                     <svg
@@ -112,7 +111,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                         y2="32"
                         fill="none"
                         className={` ${
-                          currentSection === "skills" && "!stroke-[#fff]"
+                          currentSection === "about" && "!stroke-[#fff]"
                         } stroke-primary group-hover:stroke-[#fff] transition-all duration-300`}
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -121,7 +120,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                       <path
                         fill="none"
                         className={` ${
-                          currentSection === "skills" && "!stroke-[#fff]"
+                          currentSection === "about" && "!stroke-[#fff]"
                         } stroke-primary group-hover:stroke-[#fff] transition-all duration-300`}
                         strokeLinecap="round"
                         strokeLinejoin="round"
@@ -132,7 +131,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   </div>
                   <div
                     className={`text-xl  py-1 px-5 -skew-x-[20deg] ${
-                      currentSection === "skills"
+                      currentSection === "about"
                         ? "bg-primary text-[#fff] "
                         : "bg-[#fff] text-primary"
                     } `}
@@ -145,12 +144,12 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   className="flex gap-3 justify-center items-center"
                   onClick={() => {
                     handleClick();
-                    setSection("project");
+                    setSection("skills");
                   }}
                 >
                   <div
                     className={` ${
-                      currentSection === "project" &&
+                      currentSection === "skills" &&
                       "bg-primary dark_box_shadow"
                     } hover:bg-primary group flex items-center m-1 justify-center h-10 w-10 bg-white rounded-full transition-all hover:dark_box_shadow duration-300`}
                   >
@@ -159,7 +158,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                       width="19"
                       height="13"
                       className={` ${
-                        currentSection === "project" && "!fill-[#fff] "
+                        currentSection === "skills" && "!fill-[#fff] "
                       } fill-primary group-hover:fill-[#fff] transition-all duration-300 scale-110`}
                       id="code"
                     >
@@ -168,7 +167,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   </div>
                   <div
                     className={`text-xl  py-1 px-5 -skew-x-[20deg] ${
-                      currentSection === "project"
+                      currentSection === "skills"
                         ? "bg-primary text-[#fff] "
                         : "bg-[#fff] text-primary"
                     } `}
@@ -181,7 +180,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                   className="flex gap-3 justify-center items-center"
                   onClick={() => {
                     handleClick();
-                    setSection("award");
+                    setSection("projects");
                   }}
                 >
                   <div
@@ -196,7 +195,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                       height="70%"
                       id="award"
                       className={` ${
-                        currentSection === "award" && "!fill-[#fff] "
+                        currentSection === "projects" && "!fill-[#fff] "
                       } fill-primary group-hover:fill-[#fff] transition-all duration-300`}
                     >
                       <path d="M8,22.23V30a1,1,0,0,0,1.39.92L16,28.09l6.61,2.83A1,1,0,0,0,23,31a1,1,0,0,0,.55-.17A1,1,0,0,0,24,30V22.23a12.94,12.94,0,0,1-16,0Z"></path>
@@ -207,7 +206,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
 
                   <div
                     className={`text-xl  py-1 px-5 -skew-x-[20deg] ${
-                      currentSection === "award"
+                      currentSection === "projects"
                         ? "bg-primary text-[#fff] "
                         : "bg-[#fff] text-primary"
                     } `}

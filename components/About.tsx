@@ -14,7 +14,7 @@ const arrowLoader = require("../public/video/arrow.json");
 const About = () => {
   return (
     <section
-      className={`flex relative items-center justify-center h-screen snap-start`}
+      className={`flex relative items-center justify-center h-[100svh] md:h-screen snap-start`}
     >
       <div className="absolute md:hidden rounded-tr-md rounded-br-md  block h-2 left-0 w-10/12 bg-primary top-[5%]"></div>
       <div className="md:-mt-14 mt-4 ">
