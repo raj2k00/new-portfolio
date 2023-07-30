@@ -185,7 +185,7 @@ const MobileNavBar = ({ setSection, currentSection }: NavBarInterface) => {
                 >
                   <div
                     className={` ${
-                      currentSection === "award" && "bg-primary dark_box_shadow"
+                      currentSection === "projects" && "bg-primary dark_box_shadow"
                     } hover:bg-primary group flex items-center m-1 justify-center h-10 w-10 bg-white rounded-full transition-all hover:dark_box_shadow duration-300`}
                   >
                     <svg
